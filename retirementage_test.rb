@@ -9,4 +9,7 @@ class Testretirementage < Minitest::Test
 	def test_assert_that_retirementage_is_an_array
 		assert_equal(Array, retirementageArClass())
 	end
+	def test_asset_that_retiremnetage_is_an_integer
+		assert_equal(Integer, retirementageClass())
+end
 end
