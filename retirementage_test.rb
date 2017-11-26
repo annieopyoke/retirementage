@@ -12,4 +12,7 @@ class Testretirementage < Minitest::Test
 	def test_asset_that_retiremnetage_is_an_integer
 		assert_equal(Integer, retirementageClass(65))
 end
+def test_assert_that_wombat_is_rejected
+	assert_equal(false, counting("wombat"))
+end
 end
