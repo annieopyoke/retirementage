@@ -1,5 +1,10 @@
-$retirementage = []
+$retirementageAr = []
 
 def retirementageArClass()
-	$retirementage.class
+	$retirementageAr.class
 end
+
+def retirementageClass(test_number)
+	test_number.class
+end
+
